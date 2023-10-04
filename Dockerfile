@@ -13,4 +13,4 @@ EXPOSE 3000
 
 USER 1000:1000
 
-CMD ["mdbook", "serve", "--hostname", "0.0.0.0"]
+CMD ["bash", "-c", "mdbook-mermaid install . && mdbook serve --hostname 0.0.0.0"]
