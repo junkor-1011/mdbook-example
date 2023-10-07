@@ -80,3 +80,15 @@ fn main() {
   // i=2, v=3
 }
 ```
+
+## Mathjax
+
+ref: [Mathjax Support](https://rust-lang.github.io/mdBook/format/mathjax.html)
+
+inline style: \\( i\hbar\frac{\partial\psi(t, \vec{x})}{\partial t} = (- \frac{\hbar^2 \Delta}{2m} + V(\vec{x}))\psi(t, \vec{x}) \\) (Schrödinger equation)
+
+inline style example: \\( \vec{\nabla} \cdot \vec{B} = 0 \\)
+
+block style example:
+
+\\[ i\hbar\frac{\partial\psi(t, \vec{x})}{\partial t} = (- \frac{\hbar^2 \Delta}{2m} + V(\vec{x}))\psi(t, \vec{x}) \tag{1} \\]
