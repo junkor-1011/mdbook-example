@@ -1,4 +1,4 @@
-FROM docker.io/library/rust:1.72.1-slim-bookworm AS builder
+FROM docker.io/library/rust:1.73.0-slim-bookworm AS builder
 
 RUN cargo install mdbook mdbook-mermaid
 
