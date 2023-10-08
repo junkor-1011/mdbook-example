@@ -1,8 +1,5 @@
 FROM docker.io/library/alpine:3.18.4
 
-# COPY --from=builder /usr/local/cargo/bin/mdbook /usr/local/bin/mdbook
-# COPY --from=builder /usr/local/cargo/bin/mdbook-mermaid /usr/local/bin/mdbook-mermaid
-
 WORKDIR /tmp
 ENV MDBOOK_VERSION=v0.4.35 \
     MDBOOK_MERMAID_VERSION=v0.12.6
